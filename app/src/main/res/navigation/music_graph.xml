@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/RockFragment"
+    android:id="@+id/music_graph">
+
+    <fragment
+        android:id="@+id/RockFragment"
+        android:name="com.example.music_mvp_ricardogiles.view.RockFragment"
+        android:label="Music Rock"
+        tools:layout="@layout/fragment_general"/>
+
+    <fragment
+        android:id="@+id/PopFragment"
+        android:name="com.example.music_mvp_ricardogiles.view.PopFragment"
+        android:label="Music Pop"
+        tools:layout="@layout/fragment_general"/>
+
+    <fragment
+        android:id="@+id/ClassicFragment"
+        android:name="com.example.music_mvp_ricardogiles.view.ClassicFragment"
+        android:label="Music Classic"
+        tools:layout="@layout/fragment_general"/>
+
+</navigation>
